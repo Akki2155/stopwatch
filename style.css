@@ -1,0 +1,60 @@
+.timeContainer{
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.btnContainer{
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnContainer button{
+    padding: 5px 30px ;
+    font-size: 1.5rem;
+    background: transparent;
+}
+
+.btnContainer button:hover{
+   cursor: pointer;
+}
+
+#start{
+    border: 3px solid green;
+    color: green;
+}
+
+#pause{
+    border: 3px solid red;
+    color: red;
+}
+
+#reset{
+    border: 3px solid orange;
+    color: orange;
+}
+
+#cast{
+    border: 3px solid black;
+    color: black;
+}
+
+
+
+.castConatiner{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
